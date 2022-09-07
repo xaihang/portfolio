@@ -41,5 +41,9 @@ nav {
 
 nav a {
     text-decoration: none;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: black;
+    padding: 36px 10px;
+    margin: 0 1px;
 }
