@@ -24,14 +24,10 @@ header {
     background-color: bisque;
 }
 
-
-
 nav {
     float: right;
     line-height: 100px;
     margin-right: 80px;
-
-
 }
 
 nav a {
@@ -41,7 +37,7 @@ nav a {
     color: black;
     padding: 36px 10px;
     margin: 1px 1px 1px 1px;
-    font-weight: 500px;
+    font-weight: 700px;
 }
 
 nav a:hover {
@@ -54,6 +50,7 @@ nav a:hover {
     background-size: cover;
     background-position: center center;
     top: 80px;
+    bottom: 80px;
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -72,10 +69,23 @@ nav a:hover {
     z-index: -1;
 }
 
-.hero-banner h2 {
+.hero-banner h1 {
     padding-top: 8%;
+    font-size: 25px;
+}
+
+.hero-banner h2 {
     font-size: 80px;
     color: black;
+}
+
+.hero-banner h3 {
+    font-size: 15px;
+}
+
+.hero-text p {
+    margin: 25px 200px -20px 200px;
+    font-style: italic;
 }
 
 .hero-button {
@@ -84,7 +94,7 @@ nav a:hover {
     border: 1px solid #cb376a;
     margin-top: 5rem;
     padding: 0.9375rem 1.875rem;
-    font-family: "Monserrat", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.125rem;
     font-weight: 200;
     cursor: pointer;
@@ -114,5 +124,20 @@ nav a:hover {
     padding: 2% 0;
     line-height: 35px;
     text-align: justify;
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 980px) {}
