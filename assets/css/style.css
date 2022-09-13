@@ -14,7 +14,7 @@ body {
 
 .wrapper {
     width: 90%;
-    margin: o auto;
+    margin: 0 auto;
 }
 
 header {
@@ -30,6 +30,7 @@ header {
     text-align: left;
     line-height: 100px;
 
+
 }
 
 .nameplate h1 {
@@ -37,7 +38,6 @@ header {
     font-size: 40px;
     color: black letter-spacing 4px;
     padding: 5px 1% 5px 6%;
-    margin: auto;
     line-height: 2;
 }
 
@@ -66,8 +66,8 @@ nav a:hover {
     background-image: url("../images/hero.webp");
     background-size: cover;
     background-position: center center;
-    top: 100px;
-    height: 30vh;
+    top: 80px;
+    height: 100vh;
     width: 100%;
     position: fixed;
 }
