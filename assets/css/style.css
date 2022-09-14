@@ -12,10 +12,7 @@ body {
     background-color: #FFF2E6;
 }
 
-.wrapper {
-    width: 90%;
-    margin: 0 auto;
-}
+
 
 header {
     width: 100%;
@@ -50,7 +47,6 @@ nav a:hover {
     background-size: cover;
     background-position: center center;
     top: 80px;
-    bottom: 80px;
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -84,7 +80,7 @@ nav a:hover {
 }
 
 .hero-text p {
-    margin: 25px 200px -20px 200px;
+    margin: 25px 200px 1px 200px;
     font-style: italic;
 }
 
@@ -107,10 +103,16 @@ nav a:hover {
 
 .content-area {
     width: 100%;
-    height: 800px;
+    height: 100%;
     position: relative;
     background-color: #FFF2E6;
-    top: 550px;
+    top: 600px;
+    width: 100%;
+    margin: 0 auto;
+    display: -ms-inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 150px;
+
 }
 
 .content-area h2 {
@@ -118,15 +120,24 @@ nav a:hover {
     padding-top: 30px;
     font-size: 40px;
     letter-spacing: 4px;
+    display: flex;
 }
 
-.content-area about-me contact-me {
+about-me {
+    margin-top: 2%;
     padding: 2% 0;
     line-height: 35px;
     text-align: justify;
 }
 
-
+.avatar {
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    float: right;
+    display: flex;
+}
 
 
 
