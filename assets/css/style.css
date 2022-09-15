@@ -165,6 +165,23 @@ nav a:hover {
     justify-content: space-around;
 }
 
+.about-text h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 15px;
+    margin-bottom: 45px;
+
+}
+
+
+
+
 
 @media screen and (max-width: 768px) {}
 
