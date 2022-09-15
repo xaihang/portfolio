@@ -38,7 +38,7 @@ nav a {
 }
 
 nav a:hover {
-    background: black;
+    background-color: #dd2d4a;
     color: white;
 }
 
@@ -279,7 +279,7 @@ nav a:hover {
     color: #fff;
     border-color: #dd2d4a;
     transition: all 0.5s ease-in-out;
-    text-align: center;
+
 }
 
 .contact .button2,
