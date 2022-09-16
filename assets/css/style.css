@@ -1,3 +1,4 @@
+/*--------universal------------------- */
 * {
     padding: 0;
     margin: 0;
@@ -12,7 +13,7 @@ body {
 }
 
 
-
+/*-------nav area-------------------- */
 header,
 box-area {
     width: 100%;
@@ -40,7 +41,10 @@ nav a {
 nav a:hover {
     background-color: #dd2d4a;
     color: white;
+    transition: all 0.5s ease-in-out;
 }
+
+/*-----------hero banner area---------------- */
 
 .hero-banner {
     background-image: url("../images/hero.webp");
@@ -88,6 +92,8 @@ nav a:hover {
     text-align: center;
 }
 
+
+/*----------about me area----------------- */
 .about-btns {
     display: flex;
     margin: 2rem 0;
@@ -177,80 +183,130 @@ nav a:hover {
     font-size: 15px;
     margin-bottom: 45px;
 
-}
 
-.projects {
-    width: 100%;
-    padding: 100px 0px;
 
 }
 
 
-.title h2 {
+/*----------project area----------------- */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1em;
+    justify-items: stretch;
+    align-items: stretch;
+    text-align: center;
+
+    margin: 0 100px 0 100px;
+    padding: 0 100px 0 100px;
+}
+
+
+.project-text h2 {
     font-size: 40px;
-    width: 1130px;
-    margin: 30px auto;
-    text-align: center;
-}
-
-.box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
-}
-
-.card {
-    height: 365px;
-    width: 335px;
-    padding: 20px 35px;
-    border-radius: 20px;
-    background-color: bisque;
-    margin: 15px;
-    overflow: hidden;
+    text-transform: capitalize;
+    margin-bottom: 20px;
     text-align: center;
 
 }
 
-.card h5 {
-    font-size: 22px;
-    display: block;
-    text-align: center;
-    margin: 25px 0px;
-}
-
-.pra p {
-    color: darkslategray;
-    font-size: 15px;
-    line-height: 25px;
-    margin-bottom: 25px;
-
-}
-
-.card .button {
+.box .btn {
     border: none;
     font-size: 10px;
     text-transform: uppercase;
     border: 2px solid #000;
     border-radius: 20px;
     padding: 0.55rem 0;
-    width: 300px;
+    width: 80px;
     font-weight: 600;
     background: transparent;
     margin: 0 0.5rem;
     cursor: pointer;
+
     background: #dd2d4a;
     color: #fff;
     border-color: #dd2d4a;
     transition: all 0.5s ease-in-out;
+}
+
+.box h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+
 
 }
 
-.card .button:hover {
-    background: transparent;
-    border-color: #dd2d4a;
-    color: #000;
+.box p {
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 15px;
+
 }
+
+.wrapper div {
+    background: bisque;
+    background-image: url(../images/image01.webp);
+    padding: 1em;
+    background-size: 100% auto;
+
+}
+
+
+
+.box1 {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    border-radius: 25px;
+    border: #000 2px solid;
+
+
+
+}
+
+
+
+.box2 {
+    width: auto;
+    height: 200px;
+    border-radius: 25px;
+    border: #000 2px solid;
+
+}
+
+
+.box3 {
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    border: #000 2px solid;
+}
+
+.box4 {
+    border-radius: 25px;
+    border: #000 2px solid;
+}
+
+.box5 {
+    grid-column: 1/4;
+    border-radius: 25px;
+    border: #000 2px solid;
+}
+
+.box6 {
+    grid-column: 1/4;
+    border-radius: 25px;
+    border: #000 2px solid;
+}
+
+
+
+
+
+
+
+/*-------------- contact me -----------*/
 
 .contact {
     width: 100%;
@@ -289,7 +345,19 @@ nav a:hover {
     color: #000;
 }
 
+/*----------footer area----------------- */
+.footer {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
 
+
+}
+
+
+
+
+/*----------media queries area----------------- */
 
 @media screen and (max-width: 768px) {}
 
