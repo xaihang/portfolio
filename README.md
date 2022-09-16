@@ -6,4 +6,4 @@
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](link here)
+![portfolio demo](../hw2/assets/images/hw2screen.png)
