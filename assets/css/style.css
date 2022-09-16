@@ -88,8 +88,9 @@ nav a:hover {
 
 .hero-text p {
     margin: 25px 200px 1px 200px;
-    font-style: italic;
     text-align: center;
+    font-size: 15px;
+    font-style: italic;
 }
 
 
@@ -183,10 +184,21 @@ nav a:hover {
     font-size: 15px;
     margin-bottom: 45px;
 
-
-
 }
 
+.about-text h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text ul {
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 15px;
+    margin-bottom: 45px;
+    padding-left: 30px;
+}
 
 /*----------project area----------------- */
 
@@ -359,6 +371,10 @@ nav a:hover {
 
 /*----------media queries area----------------- */
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    body
+}
 
-@media screen and (max-width: 980px) {}
+@media screen and (max-width: 980px) {
+    body
+}
